@@ -1,0 +1,686 @@
+What is Java?
+Tell me about yourself and your past work experience.
+How many projects have you completed in your career?
+Describe a project where you faced a complex challenge and how you addressed it.
+What is RAG and how does it work?
+How does re-ranking improve the accuracy of an LLM model?
+What is chunking and why is it necessary for big data?
+How would you reduce the response time of an LLM model?
+How to reduce token and credit consumption in a chatbot using RAG and LLM?
+What is hallucination in AI models, why does it occur, and how can it be mitigated?
+What is a vector database and examples of vector data?
+What is vectorization?
+What is prompt engineering?
+What is temperature in language models and how does it affect output accuracy?
+What is tokenization?
+What is context in AI models?
+What is fine-tuning and why is it needed?
+What is Hugging Face and why use it?
+Difference between supervised and unsupervised machine learning.
+What is model overfitting?
+How does an overfitted model respond to inputs outside its training data?
+What is linear regression?
+Difference between machine learning and deep learning.
+How do you assign tasks and monitor progress in a 10-member team working on two projects?
+How do you manage code when multiple developers work on different modules?
+How do you handle frequent code conflicts during merges?
+Have you deployed any projects on AWS?
+What are the steps and services needed to deploy a Python project on AWS?
+What is Nginx and its role in server deployment?
+How do you validate and apply changes to the nginx.conf file on Linux?
+How do you connect to a server from your local system?
+
+
+Please introduce yourself and describe your relevant experience.
+Can you explain the interview AI bot project in more detail?
+Is the interview AI bot a multi-agent system or a workflow application?
+Are the same agents responsible for both email sending and scoring, or are they separate?
+Which frameworks did you use in the interview AI bot project?
+What language and frameworks are your agents built with?
+How do you pass information between different agents in your system?
+What are runnables and language runnables in LangChain?
+How do you confirm that your screen is visible during a remote interview?
+What is list comprehension in Python?
+
+
+What is the difference between a list and a tuple in Python?
+What is the difference between multiprocessing and multithreading?
+What are *args and **kwargs in Python?
+What is the difference between Flask and FastAPI?
+How do you build REST APIs in FastAPI?
+What is the difference between a Docker image and a Docker container?
+What do you know about Kubernetes?
+What happens when a Kubernetes pod crashes?
+How do you effectively manage multiple open files or tabs in an editor like Notepad++?
+How do you reverse a string in Python?
+How do you find duplicate elements in a list in Python?
+
+Which status code indicates an endpoint validation error?
+Which HTTP method is idempotent but not safe in RESTful services?
+What is the primary purpose of implementing a nonce in a RESTful API request?
+Which statement about HTTP/2 features is accurate?
+Which queries utilize a multi-column index on fields a, b, and c?
+What type of index is most efficient for case-insensitive search in PostgreSQL?
+What does EXPLAIN ANALYZE do in PostgreSQL?
+How to reduce chattiness in microservice communication?
+What is true about eventual consistency?
+How to improve performance in microservices-based applications?
+What problem does the Bulkhead pattern solve in microservices?
+Which is NOT a characteristic of the Event Sourcing pattern?
+Which design pattern fits tax calculation based on warehouse region?
+Which patterns reduce requests to primary resources and improve speed?
+Which design pattern helps implement scalable rendering functionality?
+What does Ubiquitous Language mean in Domain-Driven Design?
+What is the purpose of an Anti-Corruption Layer in DDD?
+How to write a query to get total sales amount in USD per sales_date?
+Why does the SQL query error "Table 'exachange_rate' doesn't exist" occur?
+How to implement a compose function that composes multiple functions?
+
+Can you walk me through a time when you designed and built a production-quality backend service using a Python framework such as FastAPI or Flask?
+Can you describe a performance challenge you faced with JWT integration and how you resolved it?
+How did you optimize the JWT payload and what specific changes did you make?
+How did you design the token caching system to reduce database hits?
+How did you test the caching mechanism to ensure it handled high loads effectively?
+What did you learn from testing the caching mechanism and what would you do differently?
+What specific metrics would you track to measure the impact on response time?
+Which metric would you prioritize: average response time or cache hit ratio?
+How did you monitor the response time of the token validation process?
+Could you go into more detail on the specific Prometheus metrics you tracked and how you set up alerts?
+How do you approach integrating a large language model into a production system with scalability in mind?
+Can you share an example of a challenge you faced when orchestrating the model deployment with Kubernetes and how you resolved it?
+How did you tune CPU and GPU resources to handle variable loads in Kubernetes?
+Can you tell me about a time when you had to improve a system's reliability? What steps did you take to analyze and resolve the issues?
+How do you handle integration of multiple services in an API ecosystem, especially focusing on error handling?
+Can you give an example of how you implemented the circuit breaker in one of those integrations and what specific thresholds you set for tripping it?
+How do you approach designing APIs for high reliability, especially when integrating with external services?
+Can you tell me about a time when you improved the performance of an existing AI-powered system? What specific optimizations did you make?
+
+Can you briefly share your background and experience?
+How would you use FastAPI to build an API endpoint accepting JSON user data and saving it to a database, including validation and error handling?
+How would you structure a Pydantic model for JSON validation, handling optional fields and enforcing email format?
+Explain the difference between supervised and unsupervised learning with real-world examples.
+How would you approach training a model to predict housing prices from data preparation to evaluation?
+How would you handle categorical features like neighborhood or house type? What encoding techniques would you use and when?
+Explain the differences between TensorFlow and PyTorch regarding usability, ecosystem, and debugging. Which would you choose for quick prototyping and why?
+How would you decide between TensorFlow and PyTorch for rapid prototyping versus production deployment?
+How would you structure a FastAPI service to load a saved ML model for sentiment analysis, accept input, and return predictions with error handling and scalability?
+How would you create a FastAPI endpoint that accepts JSON with a "text" key and returns the reversed text, including error handling?
+How would you preprocess a dataset with missing values, categorical columns, and numerical columns with outliers for ML training?
+How would you detect and address outliers in numerical data? Which methods and libraries would you use? How do you decide to remove or transform them?
+Write a Python function to impute missing values in a Pandas DataFrame using median for numerical columns and mode for categorical columns.
+Provide a sample DataFrame input and demonstrate the output of your imputation function.
+
+Write a function that, given an array of integers, returns the smallest positive integer missing from the array.
+Identify and fix syntax errors in the provided Python code for this function.
+
+How does the chatbot provide information about top doctors and their specialties?
+How does the system handle patient questions that cannot be answered by the AI or LLM?
+
+How would you reduce hallucination in a RAG-based chatbot?
+What types of models are used for re-ranking?
+How do you evaluate a RAG system when ground truth datasets are not available?
+What is the "lost in the middle" phenomenon and how would you mitigate it in RAG architectures?
+What evaluation metrics would you use to evaluate the retrieval part of a RAG system?
+Can you write a function to merge overlapping intervals?
+Can you explain the approach you are using to merge overlapping intervals?
+When your loop runs for the first time, what two values does line 3 compare in your code?
+What are the exact values compared between merge[-1][1] and intervals[0][0] during the first loop iteration?
+
+Can you explain your company’s expansion into sports technology and the AI project you are building?
+How should an AI model detect players, track the ball, and recognize events in cricket match recordings?
+How would you design an end-to-end AI pipeline for cricket match analysis?
+How would you develop a model to automatically correct the angle and draw lines on a video of a batsman playing a straight drive to identify and fix a bad swing?
+How would you handle updating player profiles and creating new profiles based on cricket match videos?
+How much time would you require to build the AI model for the cricket analysis platform?
+What is the timeline and approach for assessing all players and updating their game statistics in the AI model?
+Have you previously developed a model similar to this project, and what challenges did you face?
+
+Can you introduce yourself?
+What is Python?
+What is a decorator in Python?
+Write a Python function that returns "hello world" in lowercase.
+How do you print the return value of a function outside the function?
+How can you use a decorator to convert a function’s output to uppercase without modifying the original function?
+What is a generator in Python?
+What is the difference between a tuple and a list?
+Write a program to check if a number is a palindrome.
+Have you worked with cloud services like AWS? What package is used to connect AWS with an application?
+Write a SQL query to find the second highest salary from an employee table.
+Have you worked with Agile methodology? Can you explain it?
+Why is concurrency control important in a multi-service system?
+What Git commands do you use when multiple developers commit on the same branch?
+How is a RAG pipeline divided and what are its main components?
+How would you return the most similar document for a given query from a list of documents?
+Write a function to perform similarity search on a list of documents.
+Write a program to find the second highest salary from a list of employee salaries.
+
+Can you explain the Global Interpreter Lock (GIL) in Python and its impact on multithreaded and multiprocessing applications?
+What is the difference between __new__ and __init__ in Python?
+When would you override the __new__ and __init__ methods?
+Can you explain shallow copy and deep copy in Python?
+How does the copy module handle nested custom instances?
+What is variable scoping in Python?
+When do you use the nonlocal keyword for variables in Python?
+What is a context manager in Python?
+What is a mutable object in Python?
+Have you worked on FastAPI with microservices?
+How do you handle blocking database calls in a FastAPI microservice?
+What is a deadlock in a database and how do you detect it?
+What is the difference between defining a route with async def versus a standard synchronous function in FastAPI?
+How do you implement a global execution timeout for an incoming request in FastAPI?
+How do you handle the timeout for an incoming request in FastAPI?
+Can you explain the logic you used to count the number of ones in the range from 0 to N?
+Can you use a mathematical approach instead of string conversion to count the number of ones in all numbers up to N?
+
+Describe a recent project where you used generative AI, including the problem, your approach, and the outcome.
+How did you evaluate the quality of the generated product descriptions?
+Did you rely mainly on qualitative feedback, or did you also use quantitative metrics?
+How did you reduce hallucinations or factual errors in the generative AI output?
+How would you process a very large log file line by line in Python without loading it all into memory?
+What is a Python generator and how does it differ from a normal function?
+What is a decorator in Python?
+
+Can you share about your work experience?
+How do you integrate BetterOff with other systems?
+How do you integrate Bedrock with AWS?
+What happens if one AWS Lambda function fails?
+Explain how to call LLMs in an agent-based AI system.
+What evaluation metrics do you follow for AI or agent-based systems?
+How do you reduce latency in LLM-based systems?
+How do you optimize Python code handling large development projects?
+How do you optimize Python code handling large document processing?
+
+Can you explain your current and last project?
+What is your specific role in the AI interview platform project?
+What was the biggest challenge you faced in the recruiter part of the project, and how did you handle it?
+How did you manage WebSocket disconnections and delays during interview sessions?
+How do you handle backend deployments without disconnecting active WebSocket clients?
+How do WebSockets work and how are they different from REST APIs?
+How does backend communication work between servers using WebSockets?
+What is Retrieval-Augmented Generation (RAG) and how have you implemented it?
+How would you debug if the RAG system gives a wrong answer?
+How do you handle failures in final answer generation due to LLM issues?
+How do you optimize chunking in a RAG system?
+Which embedding model would you choose for a large-scale retrieval system and why?
+What database would you use for storing embeddings and why?
+Why did you choose Quadrant over other vector databases like Pinecone?
+How does the retrieval process work when a user asks a question?
+How does similarity search work in vector databases?
+Coding question: Write a function to return total calls per agent from a list of dictionaries.
+How to run the function with sample data?
+What causes a SyntaxError in dictionary definitions and how to fix it?
+
+Can you start with an introduction about your experience?
+What were your roles and responsibilities in your RAG project?
+What types of documents did you extract in your RAG system?
+How can tabular data be extracted from PDFs?
+Can you name the agents in LangChain?
+What are the types of memory in LangChain with Python?
+How can you resume execution in a LangChain workflow after a node failure?
+How can checkpoints be implemented in LangChain workflows?
+How can fallback be implemented in LangChain or LangGraph workflows?
+Have you worked with FastAPI? What is its default port?
+What is Uvicorn and its role in FastAPI?
+How do you handle CORS issues in FastAPI?
+How do you handle authentication in FastAPI applications?
+Which embedding models have you used?
+What are the token limits and embedding dimensions of OpenAI's text-embedding-ada-002?
+How does a vector database retrieve relevant embeddings from a large dataset?
+What algorithms are used to measure similarity between vectors?
+What retrieval algorithms are used in vector search?
+Are you aware of different retrieval methods in embedding models?
+What retrieval method does the ADA embedding model use?
+What are the different types of retrieval in embedding models?
+What metrics do you use to evaluate retrieval accuracy?
+What is the F1 score?
+Have you used RAGs in your projects?
+What is RAG (Retrieval-Augmented Generation)?
+What is a context window in language models?
+How do you handle inputs that exceed the context window token limit?
+What are Agentic AI frameworks?
+
+What is the ratio of times taken by cars with speeds in ratio 2:3:4 to travel the same distance?
+How is the word "TEN" coded as 256, and how would you code "SIXTEEN"?
+How is "BACK" coded as "21311", and how would you code "ENGAGE"?
+If colors are renamed in a sequence (cloud as white, white as rain, etc.), where will birds fly?
+Calculate 20% of 50% of 75% of 70.
+Are the two names "Paul Res Smith" the same or different?
+Find the missing figure in a 2x2 grid pattern involving black and white squares.
+Analyze shape patterns in a 3x3 grid with big and small shapes.
+Represent 20% of 45 in a given symbolic code.
+How is "RANGER" coded as "REGNAR", and how would you code "TABLE"?
+Find the missing pattern in a 3x3 grid of cups with varying water levels.
+Identify the missing figure in a 2x2 matrix involving umbrellas and geometric shapes.
+Find the missing clock pattern in a 3x3 matrix with hour and minute hand movements.
+Are the words "Cromemco" and "Cromemco" the same or different?
+What day of the week is 1st August 2012 if 1st August 2010 was Sunday?
+How is "BAT" coded as 283, "CAT" as 383, "ARE" as 801, and how to code "BETTER"?
+Analyze shading and arrow direction patterns in a 3x3 grid.
+Find the missing figure in a 3x3 grid of chairs with rotations.
+How is "MANAGEMENT" coded as 1232451536, and how to code "GATE"?
+Are the words "Dalhaize" and "Dalhaizee" the same or different?
+Calculate capital contributions in an A, B, C partnership given their relations.
+Are the terms "Linea Goldstar" and "Linea Goldstar" the same or different?
+Find the difference between simple interest calculated at two rates and durations.
+Identify the missing pattern in a grid involving black squares and stars.
+Determine who among L, N, F, G, Q reached college first based on given statements.
+Find the missing box in a 3x3 grid with symbols having filled or outlined styles.
+Calculate the teacher's weight given class average weights before and after inclusion.
+Are the terms "Bultaco Co." and "Bultaco Co." the same or different?
+Find the probability of drawing a queen of clubs or king of hearts from a deck.
+Identify the missing shape in a 2x2 matrix involving pentagons and triangles with lines.
+
+Can you design the architecture for the CARPAL project?
+Can you give an example when you would not use a quadrant vector database?
+How do embeddings work?
+What makes a chatbot different from AI?
+When would you use a line graph over a line chain?
+Can you explain MCP architecture and related project experience?
+What is Model-Context-Protocol (MCP)?
+How is function calling different from MCP?
+How would you optimize a FastAPI application serving thousands of concurrent users?
+What is connection pooling?
+How do you handle hallucinations in an enterprise LLM?
+How would you design a retrieval system for a ranking system with around five million documents?
+Can you visually design the application architecture you described?
+What was the hardest problem you solved on the Talent Docs platform?
+What is a WebSocket and how did you integrate it into your application?
+What are the advantages of using multi-agent systems instead of a single agent?
+
+Explain the purpose and importance of "Notice No." in the HB Spec Search system at Honda Cars India.
+Explain the difference between Grade 3 and Grade 4 running changes in part updates.
+Why is the interchangeability for grade one changes always NN?
+What is serviceability in the context of part changes and how is it determined?
+Can you explain the details and importance of a DCN (Document Change Notice) in product development?
+Explain the data structure shown in the PDF and how you would approach analyzing it.
+
+What was your role in your AI project?
+What is the difference between AI and an agent?
+What is RAG (Retrieval-Augmented Generation)?
+What are the components of a RAG pipeline?
+What strategies are available for RAG systems?
+How would you chunk thousands of documents with 50 pages each?
+What is the difference between dense retrieval and sparse retrieval?
+When should sparse retrieval be used instead of dense retrieval?
+What is the difference between BM25 and TF-IDF?
+What are common retrieval and generation metrics in AI systems?
+What is a Python compiler?
+Explain Python decorators with an example.
+What is a checkpoint in programming and machine learning?
+What is a checkpoint in the context of LangChain or AI pipelines?
+How do you set or manage memory between two AI agents?
+How do you manage state sharing between agents in a multi-agent workflow?
+How would you implement via casing in a multi-agent workflow?
+Can you write a line graph code with two agents: a summarizer and a reviewer?
+
+Can you describe your current role and responsibilities?
+What functions and features does the AI-driven interview automation platform have?
+What was the underlying architecture for this platform?
+What was your specific role in the project?
+How did you contribute to the AI pipeline and model development?
+What tasks do you handle when working with Large Language Models (LLMs)?
+Why use a vector database for embeddings instead of a relational database?
+How would you handle missing data requests in a recommendation system?
+How would you update or correct misplaced or incorrect documents in a recommendation system?
+What techniques do you use to update incorrect or outdated data in a vector database?
+Why choose LangChain with a multi-agent setup over Blanket?
+How do agents communicate with each other in LangChain?
+How do agents handle communication failures in LangChain?
+How do you handle failure in an agent within a LangChain multi-agent setup?
+How do you deploy an agent in a multi-agent AI system?
+Have you built a Dockerfile before? Describe the process.
+How does Docker execute containers on Windows Docker Desktop?
+How do you update a Docker image after deployment?
+How do you create a private repository on Docker Hub?
+
+Explain the purpose and importance of "Notice No." in the HB Spec Search system at Honda Cars India.
+Explain the difference between Grade 3 and Grade 4 running changes in part updates.
+Why is the interchangeability for grade one changes always NN?
+What is serviceability in the context of part changes and how is it determined?
+Can you explain the details and importance of a DCN (Document Change Notice) in product development?
+Explain the data structure shown in the PDF and how you would approach analyzing it.
+
+What is meant by transformers in AI?
+What is the purpose of transformers and how do they help in NLP tasks?
+Does any model exist that uses both encoders and decoders?
+What does it mean when LLMs say they have 40 billion parameters?
+What is the difference between RAG and Agentic RAG?
+How would you fine-tune a model for a specific task when data is very limited?
+What is the difference between LoRA and QLoRA?
+How would you build a RAG application with very limited data for retrieval?
+What is the difference between FastAPI and Django?
+What is FastAPI built on in Python?
+Why do many people use FastAPI to host LLM models instead of Flask?
+Why is FastAPI preferred over Flask and Django for hosting LLM models?
+Does Django support asynchronous calls like FastAPI, and how do they compare?
+How do you manage tokens in API calls or LLM integrations?
+What is the difference between LLM and other models?
+What is SessionLocal in SQLAlchemy?
+What is your current experience with SQLAlchemy?
+What is your current role in the organization?
+What is your proportion of being hands-on versus team management?
+What is the maximum team size that you have managed?
+Can you talk a little bit about your current role and responsibilities?
+Can you talk a little bit about the current project you're working on?
+Can you explain in detail how the Care Pal project works?
+What is the need for managing prescriptions and patient information for both inpatient and outpatient care?
+How is patient history data used in the AI system?
+Can you adapt to working in the insurance domain despite your healthcare background?
+Can you explain clearly how you would adapt your AI expertise from healthcare to the insurance domain?
+How soon can you learn the insurance domain if assigned to an insurance project?
+What security implementations have you done in your projects?
+How do you ensure security and privacy of patient data when using LLMs, considering data might be used internally for model training?
+
+Can you explain your backend development experience with Python, FastAPI, and cloud technologies?
+What is list comprehension in Python and why is it used?
+What is a decorator in Python? Can you provide a practical example, such as logging?
+What is a generator in Python?
+What is the difference between yield and return in Python?
+Does Python support lazy loading with generators?
+What FastAPI concepts have you used in building APIs?
+How would you design a REST API to efficiently read large datasets?
+How would you design a Python API to handle time-consuming video processing tasks?
+Can you explain the graph or decision tree used in your agent architecture?
+How do you manage multi-agent workflows and interactions in LangGraph?
+How do you manage memory and conversation history in multi-turn chatbot interactions?
+How are conversations passed between different states or agents in LangGraph?
+How do you handle conversation history to avoid context loss?
+How much experience do you have with React compared to other JavaScript frameworks?
+What algorithm underlies React's virtual DOM?
+What does the virtual DOM do in React?
+Which React versions have you worked with?
+How does the React build process work?
+Have you worked with state management in React?
+How do you share and persist state or data between backend controllers or services?
+Have you faced circular dependency issues? How did you resolve them?
+How do you solve circular dependencies when two services call each other?
+How do you handle service dependencies and data indexing across multiple services?
+Have you worked with search modules in backend services?
+How would you handle indexing existing products for search?
+Can you write JavaScript code to work with arrays?
+How do you iterate over arrays in JavaScript and apply math functions?
+How do you use the map function in JavaScript to render multiple items in a list?
+
+How are you today?
+Can you explain your current CarePal project?
+What were your roles and responsibilities in the CarePal RAG application?
+How do top-K retrieval, reranking, and LLM generation work in a RAG pipeline?
+Why use RAG instead of sending an entire PDF directly to an LLM?
+What is the difference between LangChain and LangGraph?
+How would you design an employee management system using FastAPI, Pydantic, and LangGraph?
+How would you design an employee management system using FastAPI, Pydantic, MySQL, RBAC, and LangGraph?
+
+What are Python decorators?
+What are Python generators?
+What are Python context managers?
+
+Please introduce yourself and summarize your relevant experience.
+What experience do you have building RAG pipelines, and which technologies have you used?
+How would you tune decoding parameters and instructions to make LLM completions concise and reliable?
+How would you choose a model differently for extraction tasks versus open-ended generation?
+How would you design a scalable summarization pipeline for very long meeting transcripts while retaining key details?
+How does Spark build a DAG from transformations and determine stage boundaries?
+How would you diagnose high scheduler delay and poor data locality in Spark and improve locality?
+How would you choose target partition sizes for AQE coalescing and validate the results in the Spark UI?
+How would you redesign a heavily used Python UDF to use built-in expressions and columnar execution?
+How would you structure objectives, safety bounds, and evidence gathering for a procurement negotiation agent communicating by email?
+How would you mitigate hallucinated URLs and references using retrieval, verification tools, and response templates?
+What is the role of middleware in FastAPI, and what are common use cases?
+How do you implement and register global exception handlers in FastAPI?
+How would you reproduce and resolve tests that pass locally but fail in containerized CI?
+How would you enforce coverage thresholds and quality gates in CI pipelines?
+How would you design consistent APIs, versioning, and documentation for language-agnostic SDKs?
+
+Could you introduce yourself and describe your work?
+What are you currently building at VLink?
+How did you design the agent workflow for CarePal, and why use agents instead of a linear RAG pipeline?
+How did you handle grading and feedback for candidate evaluation?
+What chunking strategy did you use in your RAG system?
+What are the different chunking strategies, and when would you use each?
+When would you use Qdrant, Elasticsearch, or a vector database?
+What is the bias–variance trade-off?
+What are two ways to reduce hallucinations in an LLM-based RAG system?
+What is the difference between SQL and NoSQL databases?
+How would you fit the maximum number of consecutive retrieved chunks within an LLM context budget?
+What is a decorator in Python?
+How would you write a Python decorator that adds retry logic?
+What is the difference between inheritance and composition?
+What is the difference between asyncio and threading in Python?
+What is the difference between LangChain and LangGraph?
+Can you describe a design pattern you have used?
+What is the Factory Design Pattern, and how have you used it?
+Can you describe a testing strategy for LLM applications?
+Why are Docker and Kubernetes used, and how are they different?
+
+What is Python?
+What are async and await in FastAPI?
+What is multithreading in Python and FastAPI?
+When would you use async/await versus multithreading?
+What is dependency injection in FastAPI?
+What is middleware in FastAPI?
+How did you implement authentication for protected and public APIs?
+How would you use dependency injection and middleware for authentication?
+Should authentication use middleware or dependency injection?
+Can you explain the FastAPI request lifecycle?
+What is the N+1 query problem, and how do you prevent it?
+How would you design a weather API for one city and for an array of 30 cities?
+What strategies do you use to optimize endpoint performance?
+What are the main chunking strategies in a RAG pipeline?
+How would you evaluate a RAG system?
+How would you prevent a RAG system from answering beyond the user’s question?
+What types of prompting have you used in Generative AI applications?
+What are agents in Agentic AI?
+What are tools in Agentic AI?
+How does an agent determine which function or tool to call?
+What is LangGraph, and how have you used it?
+What Agile ceremonies do you follow during a sprint?
+What factors do you consider when providing an estimate?
+What is the reflection pattern in Generative AI and Agentic AI?
+
+What is your notice period?
+Can you explain Java’s garbage collection and how it works?
+Can you describe a Java garbage collection algorithm and how it manages memory?
+What is Java multithreading, and how can it improve application performance?
+How does Java’s Executor Framework manage threads more efficiently than manual thread creation?
+How does separating task submission from thread management improve performance and resource utilization?
+Can you explain Java exception handling and how it supports robust applications?
+What is the role of the finally block, and how does it differ from try and catch?
+Can you demonstrate a real-time interview already conducted by a team?
+Can you explain the role of Data 360 Analyze and how it integrates with other platform components?
+
+How are you doing today, and can you briefly introduce yourself?
+What are the key differences between Java’s ArrayList and Vector, and when would you choose one over the other?
+What is the difference between Serializable and Externalizable?
+What are the advantages of using Externalizable over Serializable?
+How can you customize the serialization process in Java?
+What is method overloading in Java?
+What is the role of the super keyword in Java, and can you provide an example?
+How does the Java Collections Framework handle synchronization, and what are alternatives for thread-safe collections?
+Can you name a few classes from the java.util.concurrent package?
+How does ConcurrentHashMap differ from Hashtable?
+Tell me about yourself.
+
+Tell me about yourself.
+What is the difference between AI, machine learning, deep learning, and generative AI?
+What are supervised, unsupervised, and semi-supervised learning?
+What are overfitting and underfitting?
+What is the difference between a true positive and a true negative?
+What is ROC, and what do its axes represent?
+What are ROC and AUC?
+What is regression?
+What metrics are used to evaluate regression models?
+What is class imbalance?
+How do you handle an imbalanced classification dataset?
+What is the difference between precision and recall?
+What is the formula for precision and recall?
+What is the formula for the F1 score?
+What is cross-validation?
+How does cross-validation help detect overfitting and underfitting?
+How do you handle overfitting and underfitting?
+What is the difference between a Python list and tuple?
+What is backpropagation?
+What happens if the learning rate is too high?
+What is self-attention?
+
+How would you design a Python module for managing a restaurant ordering system?
+How would you implement a BeverageItem subclass and an order-management interface?
+How should error logging be handled in the restaurant ordering module?
+How can an IndentationError after a Python function definition be fixed?
+Which components make up a RAG pipeline?
+Which similarity measure is commonly used in vector search?
+What is fine-tuning?
+What do tokens represent in LLMs?
+What is the purpose of a system prompt?
+What does temperature control in text generation?
+What is LoRA used for?
+Which metric measures whether an answer is grounded in retrieved context?
+Why is chunking important in RAG?
+Which option is a popular vector database?
+What is the output of the provided Python/MySQL code?
+What should replace XX and YY to produce the shown Python output?
+What is the output of the provided exception-handling code?
+
+Describe an end-to-end AI/GenAI solution you have built and deployed.
+What business problem did the solution address?
+Walk through the architecture from the user request to the final response, including the LLM, retrieval layer, orchestration APIs, deployment, and monitoring.
+
+Tell me about yourself and your background.
+Explain the AI-based software you have worked on.
+Describe your experience with AI-based software.
+Given a list of strings, group the anagrams together.
+
+Can you share more about your experience developing AI-powered applications?
+Can you explain your experience developing AI-powered applications using Python and FastAPI at Vlink Inc?
+Can you describe your experience building and implementing RAG pipelines with vector databases and embedding models?
+How do you use the Java Stream API?
+
+Can you quickly introduce yourself?
+How would you build an AI system from requirements through production deployment?
+How would you improve consistency when an AI model’s production predictions are unreliable?
+What is model drift, and how do you manage it in production?
+Why do LLMs hallucinate, and how can hallucinations be reduced?
+What is chain-of-thought prompting, why is it used, and how does it differ from normal prompting?
+What happens when an LLM’s temperature is set to 1?
+What are the different chunking strategies in RAG, and how do you choose the right one?
+Which chunking strategy would you choose for a healthcare-policy RAG system, and why?
+How would you flatten and rename nested dictionary keys in Python?
+
+How would you implement the numberOfTokens function?
+How do you determine the number of tokens still active after all commands execute?
+Why does AttributeError: 'dict' object has no attribute 'value' occur, and how can it be fixed?
+How would you model authentication tokens with fixed lifetimes and renewal through create and reset commands?
+How would you write a SQL query to print the floor of the average revenue for each city?
+What is the solution approach for the numberOfTokens function?
+
+Can you describe your experience building RAG pipelines and using embedding models with vector databases?
+Can you describe your experience deploying machine learning models in production and the challenges you faced?
+Can you discuss your experience with NLP and specific projects where you applied NLP techniques?
+Can you describe your experience building and maintaining microservices with Kafka, Redis, Docker, and Kubernetes?
+How have you used cloud platforms such as AWS or Azure in your projects?
+Can you discuss your experience with data preprocessing and feature engineering in machine learning projects?
+What experience do you have developing AI-powered applications with Python, FastAPI, and React.js at VLink Inc?
+Can you describe your experience using CI/CD pipelines to automate deployments and how they affected your workflow?
+
+Can you import FastAPI directly without installing it?
+How should tasks and their priorities be stored in memory?
+What query parameters should be used to filter tasks?
+What priority values should be supported?
+Can you show the response model?
+What is a FastAPI response model, and what should a POST endpoint return when data is confidential?
+Why was Optional used for the task status?
+How should task filtering and priority sorting be implemented?
+What HTTP status codes are commonly used?
+What is the difference between PUT and PATCH?
+Can you create a React component that fetches tasks from a URL, displays them in a list, and shows a loading state?
+
+Please introduce yourself.
+How much experience do you have in AI/ML?
+How many AI projects have you owned or architected?
+Are those projects deployed?
+How comfortable are you with Python on a scale of 1 to 10?
+How would you group words by their starting character into a dictionary?
+How would you handle a starting character that appears only once, such as in "house"?
+What would be your approach to completing the coding solution?
+How would you group items from a dictionary by their first letter?
+How would you use Pandas to find the employee or employees with the highest salary?
+How would you calculate average salary by department, sort employees by salary, and find the top two salaries?
+How would you fix the variable-name error in the Pandas code?
+How would you fix the DataFrame column-selection KeyError?
+What is the Transformer architecture?
+What are the main components of a Transformer?
+How do Transformers differ from RNNs and LSTMs?
+Can you explain the Talent Talks AI Voice Interview Platform in depth?
+What agents were used in the Talent Talks platform, and how did they work together?
+What agentic pattern and workflow did you use?
+What is reflection in an agentic workflow, and how would you use it?
+
+What AI projects have you worked on, and what were your contributions?
+What technologies and frameworks did you use besides RAG?
+Can you explain the architecture and components of a general RAG system?
+How does the document-ingestion phase work step by step?
+What chunking strategies have you used?
+What chunking strategy did you use in your projects?
+How are embeddings generated and stored?
+Which vector database did you use?
+What principle does Qdrant use for vector similarity search?
+How does the RAG system retrieve information and generate an answer?
+What search techniques did you use?
+How do you reduce hallucinations and improve answer accuracy?
+What is the dimensionality of an embedding vector?
+What is a context window, and how do you prevent it from being exceeded?
+What chunk size should be used in a RAG architecture?
+What document sources and formats did you use?
+How would you split text into fixed-size chunks in Python?
+How would you fix the error in the provided chunking code?
+
+What is Python?
+Which programming language do you prefer: Python or Java?
+Which Java version have you worked with, and do you know Java 17?
+What new features were introduced in Java 17?
+What is an immutable object?
+How would you make a Java object immutable?
+What methods and practices are used to create an immutable object?
+What happens when you use a setter method in an immutable class?
+What happens when a method is declared final in Java?
+What are static classes in Java?
+What variables can static and non-static methods access?
+How does HashMap work in Java?
+What are the key features of Spring Boot?
+What is IoC in Spring?
+What are the types of dependency injection in Spring, and how is @Autowired used?
+What does idempotency mean in REST APIs?
+What architectures and design patterns are used in microservices?
+How do microservices communicate with each other?
+Have you worked with asynchronous communication, and which technologies did you use?
+How would you maintain transaction order in Kafka?
+Can multiple consumers in the same Kafka consumer group read from the same partition?
+How does Kafka maintain message order when a consumer fails?
+How does Kafka resume consumption after a consumer failure?
+What have you used to implement authentication and authorization?
+Can you explain JWT authentication in Spring Boot?
+How would you restrict an admin API to administrators?
+How do you block non-admin users from accessing an admin page?
+How do you map a table with foreign keys to multiple tables using JPA/Hibernate?
+How do transactions work in Spring Boot?
+How can you prevent an audit failure from rolling back the main transaction?
+
+How would you troubleshoot a microphone or audio issue during an interview?
+Can you check your microphone and audio connection?
+What is the difference between top-k and top-p sampling?
+How would you implement hybrid search using dense and sparse retrieval?
+How would you build a hybrid retriever combining dense embeddings and sparse retrieval?
+How would you implement custom document loaders and text splitters for complex, domain-specific formatting in LangChain?
+How would you build a custom loader for a molecular structure shown in an image?
+What are reducers, and what happens when parallel branches write to the same field without one?
+What is the difference between a state graph, message graph, and a prebuilt create_react_agent?
+How does a state graph work and interact with messages or events?
+What is a cycle, and how does it differ from a DAG in LangChain?
+What is a human-in-the-loop system, and why is it relevant to AI?
+What is the difference between a supervisor swarm and a hierarchical multi-agent system in LangGraph?
+How would you evaluate a RAG system?
+How would you implement reinforcement learning in an AI workflow based on user feedback?
+How would you handle feedback updates when the underlying data changes dynamically?
+How would you handle conflicting information from multiple users’ feedback?
+
+
+
