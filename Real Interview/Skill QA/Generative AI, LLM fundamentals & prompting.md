@@ -2359,6 +2359,18 @@ application reliability even when the LLM provider experiences temporary
 issues.
 
 ------------------------------------------------------------------------
+### **51. Suppose you have developed a RAG-based chatbot using LangChain, OpenAI and a vector database. How would you protect it against prompt injection attacks?
+
+**Answer:**
+
+"I would implement multiple security layers. First, I would treat user inputs and retrieved documents as untrusted data. Second, I would clearly separate system instructions from retrieved context. Third, I would implement input and output validation, restrict tool permissions, and avoid exposing sensitive information in the model context. For critical operations, I would also implement human approval."
+
+Remember this key concept for interviews:
+- Direct Injection → Malicious instructions come directly from the user.
+- Indirect Injection → Malicious instructions come from external sources such as PDFs, websites, emails or retrieved documents.
+------------------------------------------------------------------------
+
+
 
 ## Quick Interview Preparation Tips
 
@@ -2372,3 +2384,5 @@ issues.
 6.  For architecture questions, explain the complete flow step by step.
 7.  For production-related questions, always consider latency, cost,
     scalability, security, and error handling.
+
+
